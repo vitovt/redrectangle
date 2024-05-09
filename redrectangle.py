@@ -9,11 +9,11 @@ class TranslucentWidget(QWidget):
         super().__init__()
 
         # Initialize the window
-        self.color = QColor(220, 6, 70, 220)  # Initial color and transparency
+        self.color = QColor(240, 0, 65, 220)  # Initial color and transparency
         self.initUI()
 
     def initUI(self):
-        self.setGeometry(300, 300, 250, 150)
+        self.setGeometry(300, 300, 1200, 300)
         self.setWindowTitle('Red Overlay Adjustable')
 
         # Button to change color
