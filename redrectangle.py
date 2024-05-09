@@ -42,6 +42,7 @@ class TranslucentWidget(QWidget):
     def openColorDialog(self):
         # Use QColorDialog with the option to see color changes live
         colorDialog = QColorDialog(self.color, self)
+        colorDialog.setStyleSheet("background-color: white; color: black;")
         colorDialog.setOption(QColorDialog.ShowAlphaChannel, True)
         colorDialog.currentColorChanged.connect(self.colorUpdated)
         colorDialog.exec_()
