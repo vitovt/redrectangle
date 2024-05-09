@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QPushButton, QColorDialog
 from PyQt5.QtCore import Qt
