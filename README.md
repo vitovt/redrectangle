@@ -10,6 +10,9 @@ Originally, educational books from the early '90s used this method to hide answe
 - **Interactive Color Picker**: Customize the color of the overlay in real time using a built-in color picker, making the tool versatile for different types of documents or personal preferences.
 - **Easy-to-Use Interface**: Simple GUI with straightforward options for changing color and transparency.
 
+![Application Screenshot](docs/redrectangle.png)
+
+
 ## Prerequisites
 Before you start using the Red Overlay Transparency Tool, ensure you have the following installed on your system:
 - Python 3.x
