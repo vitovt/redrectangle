@@ -43,7 +43,7 @@ To use the Red Overlay Transparency Tool, follow these steps:
 Contributions to enhance or expand the functionality of the Red Overlay Transparency Tool are welcome. If you have suggestions or improvements, feel free to fork the repository and submit a pull request.
 
 ## License
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the [MIT License](docs/MIT-LICENSE.txt).
 
 ## Acknowledgements
 This tool was inspired by the educational practices of the early '90s, specifically designed to aid in self-learning and testing without prematurely revealing answers. We aim to keep this educational tradition alive in the digital age. Sometimes it is still more effective 
