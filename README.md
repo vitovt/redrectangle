@@ -1,7 +1,7 @@
 # Red Overlay Transparency Tool
 
 ## Overview
-The Red Overlay Transparency Tool is a simple yet powerful application designed to assist in reading old educational books where correct answers are printed in red, and other text is in black. This application simulates the effect of using a real red semi-transparent tape to filter out the correct answers, helping users focus on answering questions without seeing the answers first.
+The Red Overlay Transparency Tool is a simple yet powerful Linux application designed to assist in reading old educational books where correct answers are printed in red, and other text is in black. This application simulates the effect of using a real red semi-transparent tape to filter out the correct answers, helping users focus on answering questions without seeing the answers first.
 
 Originally, educational books from the early '90s used this method to hide answers. As these books have become available in digital formats such as PDFs, this physical method isn't directly applicable. Our tool brings back this functionality digitally, allowing users to read and interact with educational content as intended.
 
@@ -27,13 +27,17 @@ pip install pyqt5
 To use the Red Overlay Transparency Tool, follow these steps:
 1. Clone the repository or download the source code.
 2. Navigate to the downloaded directory.
-3. Run the script using Python:
+3. Run the script directly
    ```bash
-   python red_overlay.py
+   ./redrectangle.py
    ```
-4. Once the application launches, you will see a window with predefined transparency and color (suitable in most cases)
-5. Click the 'Change Color' button to open the color dialog and choose your desired overlay color. Changes in the color picker are reflected in real time but works badly - you need to guess the value, sorry ((
-6. Use the mouse scroll wheel over the application window to adjust the transparency of the overlay.
+   or using Python:
+   ```bash
+   python3 redrectangle.py
+   ```
+6. Once the application launches, you will see a window with predefined transparency and color (suitable in most cases)
+7. Click the 'Change Color' button to open the color dialog and choose your desired overlay color. Changes in the color picker are reflected in real time but works badly - you need to make some experiments, sorry ((
+8. Use the **mouse scroll wheel** over the application window to adjust the transparency of the overlay.
 
 ## Contributing
 Contributions to enhance or expand the functionality of the Red Overlay Transparency Tool are welcome. If you have suggestions or improvements, feel free to fork the repository and submit a pull request.
@@ -42,5 +46,5 @@ Contributions to enhance or expand the functionality of the Red Overlay Transpar
 This project is open source and available under the [MIT License](LICENSE).
 
 ## Acknowledgements
-This tool was inspired by the educational practices of the early '90s, specifically designed to aid in self-learning and testing without prematurely revealing answers. We aim to keep this educational tradition alive in the digital age.
+This tool was inspired by the educational practices of the early '90s, specifically designed to aid in self-learning and testing without prematurely revealing answers. We aim to keep this educational tradition alive in the digital age. Sometimes it is still more effective 
 ```
